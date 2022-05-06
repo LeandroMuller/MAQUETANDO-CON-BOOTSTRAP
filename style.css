@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+
+/*----PORTADA----*/
+
+.portada {
+  background: url("../Boostrap/IMG/portada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 87vh;
+  text-align: center;
+  padding: 300px 20px;
+}
+
+/*------MAIN------*/
+
+.destacado {
+  padding: 40px;
+  text-align: center;
+}
+
+.slider {
+  width: 60%;
+  /*para centrar el carrusel*/
+  margin: auto;
+  /*oculta el resto de las imagenes*/
+  overflow: hidden;
+}
+
+.carrusel li {
+  list-style: none;
+  width: 100%;
+}
+
+.img-carrusel {
+  /*seria el 100% del <li>*/
+  width: 100%;
+}
+
+.carrusel {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: carrusel 25s linear infinite alternate;
+}
+
+@keyframes carrusel {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+/*----FOOTER-----*/
+
+.footer {
+  height: auto;
+  margin: 50px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.redes {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.redes li {
+  margin: 0 10px;
+}
+
+.redes a {
+  text-decoration: none;
+  color: white;
+}
+
+.redes a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+
+.redes a:hover i {
+  color: aqua;
+}
+
+
+/*----Preguntas Frecuentes-----*/
+
+.destacado-pf{
+  text-align: center;
+}
+
+/*---sucursal---*/
+
+.destacado-s{
+  text-align: center;
+}
+
+.sucursal {
+  text-align: center;
+}
+
+.maps {
+  margin: 0px 600px 0px 600px;
+}

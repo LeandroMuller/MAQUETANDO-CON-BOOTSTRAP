@@ -1,0 +1,19 @@
+{
+  "name": "boostrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroMuller/MAQUETANDO-CON-BOOTSTRAP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroMuller/MAQUETANDO-CON-BOOTSTRAP/issues"
+  },
+  "homepage": "https://github.com/LeandroMuller/MAQUETANDO-CON-BOOTSTRAP#readme"
+}

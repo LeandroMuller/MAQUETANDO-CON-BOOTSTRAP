@@ -1,0 +1,4 @@
+@mixin flex ($flex, $align) {
+  height: $flex;
+  margin: $align;
+}

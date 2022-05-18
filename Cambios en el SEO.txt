@@ -1,0 +1,11 @@
+Cambios realizados en mi HTML para un mejor SEO
+
+Title: Se actualizo por (&#128241; Twenty Cases | Diseños exclusivos) que se encuentra dentro del rango solicitado por google (43 caracteres).
+
+Imagenes: Se cambio el ALT de las mismas por referencias que detallen de que tratan los productos.
+
+Favicon: Se agrego un icono 
+
+Meta: Se agrego una descripcion conformada por 200 caracteres.
+
+KW: Tambien se agregaron 18 palabras claves

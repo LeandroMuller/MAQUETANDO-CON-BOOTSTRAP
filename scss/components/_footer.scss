@@ -1,26 +1,21 @@
 .footer {
-  height: auto;
-  margin: 50px;
+  @include flex(auto, 50px);
 }
 
 .footer-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %flex;
   flex-direction: column;
   text-align: center;
 }
 
 .redes {
   list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %flex;
   margin: 1rem 0 3rem 0;
 }
 
 .redes li {
-  margin: 0 10px;
+  @include flex(auto, 0 10px);
 }
 
 .redes a {
